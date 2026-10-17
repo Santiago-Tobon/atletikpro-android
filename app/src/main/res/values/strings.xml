@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atletik Pro</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_confirmar">Confirmar contraseña</string>
+    <string name="hint_buscar">Buscar por nombre o marca</string>
+    <string name="btn_ingresar">Iniciar sesión</string>
+    <string name="btn_registrarme">Crear cuenta</string>
+    <string name="ir_registro">¿No tienes cuenta? Regístrate</string>
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="error_correo">Ingresa un correo válido</string>
+    <string name="error_nombre">El nombre debe tener al menos 3 caracteres</string>
+    <string name="error_contrasena">Mínimo 8 caracteres, con letras y números</string>
+    <string name="error_contrasena_vacia">Ingresa tu contraseña</string>
+    <string name="error_confirmar">Las contraseñas no coinciden</string>
+    <string name="error_correo_existe">Este correo ya está registrado</string>
+    <string name="error_credenciales">Correo o contraseña incorrectos</string>
+    <string name="registro_ok">Cuenta creada. Ya puedes iniciar sesión</string>
+    <string name="saludo">Hola, %1$s</string>
+    <string name="ver_carrito">Carrito (%1$d)</string>
+    <string name="salir">Cerrar sesión</string>
+    <string name="agregar">Agregar</string>
+    <string name="agregado">%1$s agregado al carrito</string>
+    <string name="detalle_producto">%1$s · %2$s · Tallas: %3$s</string>
+    <string name="sin_resultados">No se encontraron productos</string>
+    <string name="carrito_titulo">Tu carrito</string>
+    <string name="carrito_vacio">El carrito está vacío</string>
+    <string name="total">Total: %1$s</string>
+    <string name="volver">Seguir comprando</string>
+    <string name="vaciar">Vaciar</string>
+    <string name="pagar">Pagar</string>
+    <string name="resumen_pago">Total a pagar: %1$s\n\nLa pasarela de pagos se integra en el módulo de Checkout (RF8).</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical"
+    android:padding="24dp" android:fitsSystemWindows="true">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/titulo_registro" android:textSize="24sp" android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+    <EditText android:id="@+id/etNombre" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre" android:inputType="textPersonName" />
+    <EditText android:id="@+id/etCorreo" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/hint_correo" android:inputType="textEmailAddress" />
+    <EditText android:id="@+id/etContrasena" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/hint_contrasena" android:inputType="textPassword" />
+    <EditText android:id="@+id/etConfirmar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/hint_confirmar" android:inputType="textPassword" />
+    <Button android:id="@+id/btnRegistrar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="@string/btn_registrarme" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:fitsSystemWindows="true">
+
+    <TextView android:id="@+id/tvSaludo" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="20sp" android:textStyle="bold" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/btnCarrito" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+        <Button android:id="@+id/btnSalir" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/salir" />
+    </LinearLayout>
+    <EditText android:id="@+id/etBuscar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="@string/hint_buscar" android:inputType="text" />
+    <Spinner android:id="@+id/spCategoria" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@+id/tvVacio" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp" android:gravity="center" android:text="@string/sin_resultados" android:visibility="gone" />
+    <ListView android:id="@+id/lvProductos" android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

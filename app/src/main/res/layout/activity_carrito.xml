@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:fitsSystemWindows="true">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/carrito_titulo" android:textSize="22sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tvVacio" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp" android:gravity="center" android:text="@string/carrito_vacio" />
+    <ListView android:id="@+id/lvCarrito" android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" />
+    <TextView android:id="@+id/tvTotal" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textSize="20sp" android:textStyle="bold" android:gravity="end" android:padding="8dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/btnVolver" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/volver" />
+        <Button android:id="@+id/btnVaciar" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/vaciar" />
+        <Button android:id="@+id/btnPagar" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="@string/pagar" />
+    </LinearLayout>
+</LinearLayout>
